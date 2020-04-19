@@ -1,6 +1,6 @@
 {
-  "projectName": "javascript-datastructures-algorithms",
-  "projectOwner": "KeshShan",
+  "projectName": "javascript-interview-questions",
+  "projectOwner": "keshshan",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -11,18 +11,16 @@
   "commitConvention": "none",
   "contributors": [
     {
-      "login": "keshshan",
+      "login": "KeshShan",
       "name": "Keshan Nageswaran",
       "avatar_url": "https://avatars3.githubusercontent.com/u/12506034?v=4",
       "profile": "http://keshShan.github.io",
       "contributions": [
         "code",
         "design",
-        "ideas",
         "doc"
       ]
     }
   ],
-  "contributorsPerLine": 7,
-  "skipCi": true
+  "contributorsPerLine": 7
 }
