@@ -9,7 +9,18 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "keshshan",
+      "name": "Keshan Nageswaran",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12506034?v=4",
+      "profile": "http://keshShan.github.io",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "skipCi": true
 }
