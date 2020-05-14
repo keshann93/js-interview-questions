@@ -2,8 +2,8 @@ Given a string S and a string T, find the minimum window in S which will contain
 
 **Example:**
 
-> Input: S = "ADOBECODEBANC", T = "ABC"
-> Output: "BANC"
+    Input: S = "ADOBECODEBANC", T = "ABC"
+    Output: "BANC"  
 
 
 **Note:**
