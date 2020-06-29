@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/KeshShan/javascript-datastructures-algorithms",
   "dependencies": {
-    "all-contributors-cli": "^6.14.2"
+    "all-contributors-cli": "^6.16.1"
   }
 }
