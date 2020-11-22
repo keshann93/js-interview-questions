@@ -1,39 +1,95 @@
 {
-  "name": "javascript-algorithms",
-  "version": "0.0.0",
-  "description": "Implementations of different data-structures and algorithms in Javascript",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
+  "name": "js-interview-questions",
+  "author": "Keshan Nageswaran",
+  "description": "A Repo of algorithms written in javascript and explained",
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint .",
+    "lint-fix": "yarn lint --fix",
+    "spec": "jest",
+    "test": "yarn lint && yarn spec"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": ["yarn lint-fix", "yarn test"],
+    "{*.json,.{babelrc,eslintrc,prettierrc,stylelintrc}}": [
+      "prettier --ignore-path .eslintignore --parser json --write"
+    ]
   },
   "devDependencies": {
-    "@jeremyckahn/minami": "^1.3.1",
-    "gh-pages": "^1.1.0",
-    "gulp": "^3.8.10",
-    "gulp-eslint": "^3.0.1",
-    "gulp-jasmine": "^2.0.1",
-    "jsdoc": "3.5.5",
-    "live-server": "^1.2.0"
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-flow": "^7.12.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.1",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-bliss": "^4.7.0",
+    "eslint-plugin-flowtype-errors": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "flow-bin": "^0.137.0",
+    "husky": ">=4.3.0",
+    "jest-cli": "^26.6.1",
+    "lint-staged": "^10.5.1",
+    "prettier": "2.2.0",
+    "yarn": "^1.21.0"
   },
-  "scripts": {
-    "build": "gulp build",
-    "test": "gulp test",
-    "deploy": "npm run doc:build && gh-pages -d dist -b gh-pages",
-    "doc": "npm run doc:build && npm run doc:view",
-    "doc:build": "jsdoc -c doc-config.json",
-    "doc:view": "live-server dist --port=9124"
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.16.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://https://github.com/KeshShan/javascript-datastructures-algorithms"
+  "eslintConfig": {
+    "extends": "bliss",
+    "rules": {
+      "consistent-return": "off",
+      "class-methods-use-this": "off",
+      "flowtype-errors/show-errors": "off",
+      "import/no-extraneous-dependencies": "off",
+      "max-classes-per-file": "off",
+      "no-continue": "off",
+      "no-param-reassign": "off",
+      "no-plusplus": "off",
+      "no-bitwise": "off",
+      "no-use-before-define": "off",
+      "no-underscore-dangle": "off",
+      "no-mixed-operators": "off",
+      "no-restricted-syntax": "off",
+      "jest/no-export": "off",
+      "jest/no-standalone-expect": "off",
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "ignore",
+          "objects": "always-multiline",
+          "imports": "never",
+          "exports": "never",
+          "functions": "ignore"
+        }
+      ]
+    }
   },
-  "author": "@KeshShan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KeshShan/javascript-datastructures-algorithms/issues"
+  "renovate": {
+    "extends": ["bliss"]
   },
-  "homepage": "https://github.com/KeshShan/javascript-datastructures-algorithms",
-  "dependencies": {
-    "all-contributors-cli": "^6.14.2"
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-flow"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
   }
 }
