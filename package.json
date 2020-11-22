@@ -15,7 +15,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["yarn lint-fix", "yarn test"],
+    "*.{js,jsx,ts,tsx}": ["yarn lint-fix"],
     "{*.json,.{babelrc,eslintrc,prettierrc,stylelintrc}}": [
       "prettier --ignore-path .eslintignore --parser json --write"
     ]
