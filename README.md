@@ -1,7 +1,24 @@
 
-LeetCode
+JS-Interview-Questions
 ========
 
+My attempt of solving popular interview questions in JavaScript (ES6)
+
+
+[![Build Status](https://dev.azure.com/keshann93/keshann93/_apis/build/status/keshann93.js-interview-questions?branchName=master)](https://dev.azure.com/keshann93/keshann93/_build/latest?definitionId=18&branchName=master)
+
+
+# Getting Started
+
+```bash
+# Setup
+git clone https://github.com/keshann93/js-interview-questions.git
+cd js-interview-questions
+yarn
+
+# Test
+yarn test
+```
 ### LeetCode Algorithm
 
 (Notes: "&hearts;" means you need to buy a book from Leetcode)

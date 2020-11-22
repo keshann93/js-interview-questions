@@ -2,8 +2,14 @@
 import SumTimelineMethod from '../leetcode/Easy/371';
 import SingleNumber from '../leetcode/Easy/136';
 import CanWinNim from '../leetcode/Easy/292';
+import twoSum from '../leetcode/Easy/1';
 
-describe('leetcode', () => {
+describe('leetcode easy', () => {
+  test('twoSum()', () => {
+    expect(twoSum([2, 7, 11, 15], 9)).toEqual([1, 0]);
+    expect(twoSum([3, 2, 3], 6)).toEqual([2, 0]);
+    expect(twoSum([2, 7, 11, 15], 10)).toEqual([-1, -1]);
+  });
   test('SumTimelineMethod()', () => {
     expect(SumTimelineMethod(1, -1)).toEqual(0);
     expect(SumTimelineMethod(-1, 1)).toEqual(0);
