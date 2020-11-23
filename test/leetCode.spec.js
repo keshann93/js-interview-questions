@@ -4,6 +4,7 @@ import SingleNumber from '../leetcode/Easy/136';
 import CanWinNim from '../leetcode/Easy/292';
 import twoSum from '../leetcode/Easy/1';
 import addTwoNumbers from '../leetcode/Medium/2';
+import lengthOfLongestSubstring from '../leetcode/Medium/3';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
@@ -29,5 +30,8 @@ describe('leetcode easy', () => {
 describe('leetcode medium', () => {
   test('addTwoNumbers()', () => {
     expect(addTwoNumbers([2, 4, 3], [5, 6, 4])).toEqual([7, 0, 8]);
+  });
+  test('lengthOfLongestSubstring()', () => {
+    expect(lengthOfLongestSubstring('pwwkew')).toEqual(3);
   });
 });
