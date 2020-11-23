@@ -3,6 +3,7 @@ import SumTimelineMethod from '../leetcode/Easy/371';
 import SingleNumber from '../leetcode/Easy/136';
 import CanWinNim from '../leetcode/Easy/292';
 import twoSum from '../leetcode/Easy/1';
+import addTwoNumbers from '../leetcode/Medium/2';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
@@ -22,5 +23,11 @@ describe('leetcode easy', () => {
   });
   test('CanWinNim()', () => {
     expect(CanWinNim(4)).toEqual(false);
+  });
+});
+
+describe('leetcode medium', () => {
+  test('addTwoNumbers()', () => {
+    expect(addTwoNumbers([2, 4, 3], [5, 6, 4])).toEqual([7, 0, 8]);
   });
 });
