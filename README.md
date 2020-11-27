@@ -159,7 +159,7 @@ yarn test
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [JavaScript](./algorithms/cpp/lexicographicalNumbers/LexicographicalNumbers.cpp)|Medium|
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/) | [JavaScript](./algorithms/cpp/miniParser/MiniParser.cpp)|Medium|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [JavaScript](./algorithms/cpp/shuffleAnArray/ShuffleAnArray.cpp)|Medium|
-|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](./algorithms/cpp/ransomNote/RansomNote.cpp)|Easy|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](./leetcode/Easy/66.js)|Easy|
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [JavaScript](./algorithms/cpp/linkedListRandomNode/LinkedListRandomNode.cpp)|Medium|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [JavaScript](./algorithms/cpp/insertDeleteGetRandom/InsertDeleteGetrandomO1DuplicatesAllowed.cpp)|Hard|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [JavaScript](./algorithms/cpp/insertDeleteGetRandom/InsertDeleteGetrandomO1.cpp)|Hard|
