@@ -447,8 +447,8 @@ yarn test
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [JavaScript](./algorithms/cpp/stringToIntegerAtoi/stringToIntegerAtoi.cpp)|Easy|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [JavaScript](./algorithms/cpp/reverseInteger/reverseInteger.cpp)|Easy|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [JavaScript](./algorithms/cpp/zigZagConversion/zigZagConversion.cpp)|Easy|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [JavaScript](./algorithms/cpp/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
-|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [JavaScript](./algorithms/cpp/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [JavaScript](./leetcode/Medium/5.js)|Medium|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [JavaScript](./leetcode/Hard/4.js)|Hard|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [JavaScript](./leetcode/Medium/3.js)|Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [JavaScript](./leetcode/Medium/2.js)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [JavaScript](./leetcode/Easy/1.js) |Easy|
