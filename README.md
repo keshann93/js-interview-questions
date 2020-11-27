@@ -386,7 +386,7 @@ yarn test
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [JavaScript](./algorithms/cpp/sqrt/sqrt.cpp)|Medium|
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [JavaScript](./algorithms/cpp/textJustification/textJustification.cpp)|Hard|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [JavaScript](./algorithms/cpp/addBinary/addBinary.cpp)|Easy|
-|66|[Plus One](https://leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/cpp/plusOne/plusOne.cpp)|Easy|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)| [JavaScript](./leetcode/Easy/66.js)|Easy|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)| [JavaScript](./algorithms/cpp/validNumber/validNumber.cpp)|Easy|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [JavaScript](./algorithms/cpp/minimumPathSum/minimumPathSum.cpp)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [JavaScript](./algorithms/cpp/uniquePaths/uniquePaths.II.cpp)|Medium|

@@ -4,6 +4,7 @@ import SingleNumber from '../leetcode/Easy/136';
 import CanWinNim from '../leetcode/Easy/292';
 import twoSum from '../leetcode/Easy/1';
 import isValid from '../leetcode/Easy/20';
+import plusOne from '../leetcode/Easy/66';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
@@ -15,6 +16,11 @@ describe('leetcode easy', () => {
     expect(isValid('()')).toEqual(true);
     expect(isValid('()[]{}')).toEqual(true);
     expect(isValid('(]')).toEqual(false);
+  });
+  test('plusOne()', () => {
+    expect(plusOne([8, 9, 9, 9])).toEqual([9, 0, 0, 0]);
+    expect(plusOne([1, 2, 3])).toEqual([1, 2, 4]);
+    expect(plusOne([9])).toEqual([1, 0]);
   });
   test('SumTimelineMethod()', () => {
     expect(SumTimelineMethod(1, -1)).toEqual(0);
