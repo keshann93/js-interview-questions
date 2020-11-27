@@ -5,6 +5,7 @@ import CanWinNim from '../leetcode/Easy/292';
 import twoSum from '../leetcode/Easy/1';
 import addTwoNumbers from '../leetcode/Medium/2';
 import lengthOfLongestSubstring from '../leetcode/Medium/3';
+import findMedianSortedArrays from '../leetcode/Hard/4';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
@@ -33,5 +34,11 @@ describe('leetcode medium', () => {
   });
   test('lengthOfLongestSubstring()', () => {
     expect(lengthOfLongestSubstring('pwwkew')).toEqual(3);
+  });
+});
+
+describe('leetcode hard', () => {
+  test('findMedianSortedArrays()', () => {
+    expect(findMedianSortedArrays([1, 2], [3, 4])).toEqual(2.5);
   });
 });
