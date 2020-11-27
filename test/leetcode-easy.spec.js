@@ -3,12 +3,18 @@ import SumTimelineMethod from '../leetcode/Easy/371';
 import SingleNumber from '../leetcode/Easy/136';
 import CanWinNim from '../leetcode/Easy/292';
 import twoSum from '../leetcode/Easy/1';
+import isValid from '../leetcode/Easy/20';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
     expect(twoSum([2, 7, 11, 15], 9)).toEqual([1, 0]);
     expect(twoSum([3, 2, 3], 6)).toEqual([2, 0]);
     expect(twoSum([2, 7, 11, 15], 10)).toEqual([-1, -1]);
+  });
+  test('valid parenthesis isValid()', () => {
+    expect(isValid('()')).toEqual(true);
+    expect(isValid('()[]{}')).toEqual(true);
+    expect(isValid('(]')).toEqual(false);
   });
   test('SumTimelineMethod()', () => {
     expect(SumTimelineMethod(1, -1)).toEqual(0);

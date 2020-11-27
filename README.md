@@ -432,7 +432,7 @@ yarn test
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/cpp/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [JavaScript](./algorithms/cpp/generateParentheses/generateParentheses.cpp)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [JavaScript](./algorithms/cpp/mergeTwoSortedList/mergeTwoSortedList.cpp)|Easy|
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [JavaScript](./algorithms/cpp/validParentheses/validParentheses.cpp)|Easy|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [JavaScript](./leetcode/Easy/20.js)|Easy|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [JavaScript](./algorithms/cpp/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [JavaScript](./algorithms/cpp/4Sum/4Sum.cpp)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [JavaScript](./algorithms/cpp/letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.cpp)|Medium|
