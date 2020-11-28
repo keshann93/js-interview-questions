@@ -133,7 +133,7 @@ yarn test
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | [JavaScript](./algorithms/cpp/addStrings/AddStrings.cpp)|Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [JavaScript](./algorithms/cpp/thirdMaximumNumber/ThirdMaximumNumber.cpp)|Easy|
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [JavaScript](./algorithms/cpp/arithmeticSlices/ArithmeticSlices.cpp)|Medium|
-|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [JavaScript](./algorithms/cpp/fizzBuzz/FizzBuzz.cpp)|Easy|
+|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [JavaScript](./leetcode/Easy/412.js)|Easy|
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [JavaScript](./algorithms/cpp/splitArrayLargestSum/SplitArrayLargestSum.cpp)|Hard|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [JavaScript](./algorithms/cpp/longestPalindrome/LongestPalindrome.cpp)|Easy|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [JavaScript](./algorithms/cpp/queueReconstructionByHeight/QueueReconstructionByHeight.cpp)|Medium|

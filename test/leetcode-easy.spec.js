@@ -6,6 +6,7 @@ import twoSum from '../leetcode/Easy/1';
 import isValid from '../leetcode/Easy/20';
 import plusOne from '../leetcode/Easy/66';
 import canConstruct from '../leetcode/Easy/383';
+import fizzBuzz from '../leetcode/Easy/412';
 
 describe('leetcode easy', () => {
   test('twoSum()', () => {
@@ -40,5 +41,8 @@ describe('leetcode easy', () => {
   });
   test('CanWinNim()', () => {
     expect(CanWinNim(4)).toEqual(false);
+  });
+  test('412 fizzBuzz()', () => {
+    expect(fizzBuzz(5)).toEqual(['1', '2', 'Fizz', '4', 'Buzz']);
   });
 });
