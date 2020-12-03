@@ -3,11 +3,6 @@ JS-Interview-Questions
 ========
 
 My attempt of solving popular interview questions in JavaScript (ES6)
-
-
-[![Build Status](https://dev.azure.com/keshann93/keshann93/_apis/build/status/keshann93.js-interview-questions?branchName=master)](https://dev.azure.com/keshann93/keshann93/_build/latest?definitionId=18&branchName=master)
-
-
 # Getting Started
 
 ```bash
