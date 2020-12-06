@@ -47,5 +47,21 @@ export default function addTwoNumbers(l1, l2) {
     curr.next = new ListNode(carry);
   }
 
-  return resultNode.next;
+  return printList(resultNode.next);
+}
+
+// function to print the linked list
+function printList(node) {
+  const list = [];
+  if (node === null) {
+    return [];
+  }
+  let temp = node;
+  while (temp != null) {
+    list.push(temp.value);
+    process.stdout.write(String(temp.value));
+    process.stdout.write(' -> ');
+    temp = temp.next;
+  }
+  return list;
 }
