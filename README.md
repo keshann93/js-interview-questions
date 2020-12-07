@@ -21,6 +21,7 @@ yarn test
 |---| ----- | -------- | ---------- |
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [JavaScript](./leetcode/Easy/412.js)|Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](./leetcode/Easy/383.js)|Easy|
+|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [JavaScript](./leetcode/Easy/346.js)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)| [JavaScript](./leetcode/Easy/66.js)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [JavaScript](./leetcode/Easy/20.js)|Easy|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [JavaScript](./leetcode/Medium/5.js)|Medium|
