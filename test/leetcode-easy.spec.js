@@ -6,6 +6,7 @@ import plusOne from '../leetcode/Easy/66';
 import canConstruct from '../leetcode/Easy/383';
 import fizzBuzz from '../leetcode/Easy/412';
 import movingAverageJs from '../leetcode/Easy/346';
+import sortedArrayToBST from '../leetcode/Easy/108';
 
 describe('leetcode easy', () => {
   test('1 twoSum()', () => {
@@ -22,6 +23,16 @@ describe('leetcode easy', () => {
     expect(plusOne([8, 9, 9, 9])).toEqual([9, 0, 0, 0]);
     expect(plusOne([1, 2, 3])).toEqual([1, 2, 4]);
     expect(plusOne([9])).toEqual([1, 0]);
+  });
+  test('108 sortedArrayToBST()', () => {
+    expect(sortedArrayToBST([-10, -3, 0, 5, 9])).toEqual([
+      0,
+      -3,
+      9,
+      -10,
+      null,
+      5,
+    ]);
   });
   test('346 MovingAverage()', () => {
     movingAverageJs.size = 3;
