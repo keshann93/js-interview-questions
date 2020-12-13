@@ -24,6 +24,7 @@ yarn test
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](./leetcode/Easy/383.js)|Easy|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [JavaScript](./leetcode/Medium/347.js)|Medium|
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [JavaScript](./leetcode/Easy/346.js)|Easy|
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [JavaScript](./leetcode/Hard/128.js)|Hard|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [JavaScript](./leetcode/Easy/108.js)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)| [JavaScript](./leetcode/Easy/66.js)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [JavaScript](./leetcode/Easy/20.js)|Easy|

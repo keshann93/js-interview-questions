@@ -1,6 +1,7 @@
 // @flow
 import findMedianSortedArrays from '../leetcode/Hard/4';
 import medianSlidingWindow from '../leetcode/Hard/480';
+import longestConsecutive from '../leetcode/Hard/128';
 
 describe('leetcode hard', () => {
   test('4 findMedianSortedArrays()', () => {
@@ -15,5 +16,8 @@ describe('leetcode hard', () => {
       5.0,
       6.0,
     ]);
+  });
+  test('128 longestConsecutive()', () => {
+    expect(longestConsecutive([100, 4, 200, 1, 3, 2])).toEqual(4);
   });
 });
