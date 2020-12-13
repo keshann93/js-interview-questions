@@ -19,6 +19,7 @@ yarn test
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [JavaScript](./leetcode/Hard/480.js)|Hard|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [JavaScript](./leetcode/Easy/412.js)|Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](./leetcode/Easy/383.js)|Easy|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [JavaScript](./leetcode/Medium/347.js)|Medium|
