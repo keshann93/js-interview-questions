@@ -37,7 +37,7 @@
     "flow-bin": "^0.137.0",
     "husky": ">=4.3.0",
     "jest-cli": "^26.6.1",
-    "lint-staged": "^10.5.1",
+    "lint-staged": "^11.0.1",
     "prettier": "2.2.0",
     "yarn": "^1.21.0"
   },
